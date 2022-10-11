@@ -1,8 +1,10 @@
 const express = require('express')
 
+
+const { port } = require('./config.js')
+
 const app = express()
 
-const port = 9000
 
 app.use(express.json())
 
